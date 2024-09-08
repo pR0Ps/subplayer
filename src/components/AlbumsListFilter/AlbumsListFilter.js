@@ -34,7 +34,7 @@ export default function AlbumsListFilter(props) {
                 Alert.warning("Both year values are required")
             }
             else {
-                props.onFilterChanged({ filter: filter, from: yearFrom, to: yearTo })
+                props.onFilterChanged({ filter: filter, fromYear: yearFrom, toYear: yearTo })
             }
         }
     }
